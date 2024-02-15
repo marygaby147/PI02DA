@@ -5,12 +5,12 @@
 </p>
 
 
-## Introduccion : 
+## Introducción : 
 En un mundo cada vez más interconectado, la seguridad vial se ha convertido en una prioridad para las autoridades locales. Los siniestros viales no solo afectan la movilidad de las personas, sino que también pueden tener consecuencias devastadoras para la vida de los ciudadanos. En este contexto, surge el siguiente proyecto que consiste en asumir el rol de un Data Scientist y Data Analyst para analizar los siniestros viales en la Ciudad de Buenos Aires y proporcionar información valiosa que permita tomar medidas concretas para reducir la cantidad de víctimas fatales.
 
 El objetivo principal es utilizar la base de datos oficial del gobierno de la Ciudad de Buenos Aires para realizar un análisis exhaustivo de los siniestros viales. A través de técnicas de procesamiento y visualización de datos, se busca identificar patrones, tendencias y relaciones que ayuden a comprender mejor las causas y consecuencias de estos eventos. Con esta información, las autoridades locales podrán implementar estrategias más efectivas para prevenir accidentes y salvar vidas.
 
-## Tecnologias utilizadas 
+## Tecnologías utilizadas 
 - SQLAlchemy
 - Sql 
 - MySql
@@ -22,11 +22,11 @@ El objetivo principal es utilizar la base de datos oficial del gobierno de la Ci
 - Power Bi
 - BeautifulSoup
 
-## Archivo necesario para ejecutar el dashboar en Power Bi
+## Archivo necesario para ejecutar el dashboard en Power Bi
 1.  [Archivo .pbix(Power Bi)](PI02DA.pbix)
 2.  [Data Set final ](DataSetFinal.csv)
 
-## Resolucion: 
+## Resolución: 
 ### 1. [Web Scraping](ETL.ipynb):
 Durante este proceso se obtienen los datos directamente de la página oficial del gobierno de la Ciudad de Buenos Aires. Este proceso proporcionará la información necesaria para el análisis.
 
@@ -34,7 +34,7 @@ Durante este proceso se obtienen los datos directamente de la página oficial de
 Se realiza un análisis exploratorio de los datos para descubrir patrones ocultos. Se Utilizan librerías como Pandas, Numpy, Seaborn y Matplotlib para visualizar y resumir la información relevante.
 
 ### 3. [ETL](ETL.ipynb): 
-SE procesan los datos extraídos mediante técnicas de extracción, limpieza, transformación y carga. Esto permite obtener un conjunto de datos final listo para su análisis.
+Se procesan los datos extraídos mediante técnicas de extracción, limpieza, transformación y carga. Esto permite obtener un conjunto de datos final listo para su análisis.
 
 ### 4.[Base de Datos - MySql](SQL.ipynb):
 Se crea una base de datos utilizando MySQL para almacenar los datos procesados. Esta base de datos será la fuente de información para el dashboard en Power BI.
